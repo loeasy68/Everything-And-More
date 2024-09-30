@@ -1,10 +1,9 @@
-#Stores IDs instead of abbreviations
-#0 - Decompistition/Recycling
-#1 - Storage
-#2 - Machines
-#3 - GMO
-#4 Other QOL things
-IDtable = [["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], ["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], ["Conveyor", "Cobblestone Generator", "Mixer", "Solar panels", "Electric furnace", "Research station"], ["Syringe", ["Insert 50 genes"], "Dna extractor", "Gene Combiner", "Gene Synthesizer"],["Molten Iron", "Molten Gold", "Molten Stone", "Molten Mix", "Molten Glass"]]
+#IDs for faster finding
+IDtable = [["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], 
+["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], 
+["Conveyor", "Cobblestone Generator", "Mixer", "Solar panels", "Electric furnace", "Research station"], 
+["Syringe", ["Insert 50 genes"], "Dna extractor", "Gene Combiner", "Gene Synthesizer"], 
+["Molten Iron", "Molten Gold", "Molten Stone", "Molten Mix", "Molten Glass"]]
 #fyi chest networker should find all the nearby chests by the owner of the chest networker and create a network where they can find all the contents of the chests
 #stuff for fabric.mod.json
 name = "everything-and-more"
