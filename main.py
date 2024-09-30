@@ -8,7 +8,7 @@
 class Decomposition:
     def __init__(self, age, type):
         self.age = age
-        self.type = tyoe
+        self.type = type
     def run():
         # This is an If tree based on each type
         if self.type == "Dpe":
