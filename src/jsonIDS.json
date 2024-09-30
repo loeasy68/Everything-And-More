@@ -1,6 +1,30 @@
 {
     "key": "value",
     "new": "thing",
+    "IDtable": [
+        ["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], 
+        ["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], 
+        ["Conveyor", "Cobblestone Generator", "Mixer", "Solar panels", "Electric furnace", "Research station"], 
+        ["Dna extractor", "Gene Combiner", "Gene Synthesizer"], 
+        ["Molten Iron", "Molten Gold", "Molten Stone", "Molten Mix", "Molten Glass"]
+    ],
+    "GeneCombinerIDs": [
+        ["THE EATER", ["Omnivore", "Fatness/Bulk"]],
+        ["Thick Skinned", ["Bulk", "Fatness"]],
+        ["Weak Speedster", ["Glass Canon", "Hollow Bones"]],
+        ["Buff Speedster", ["Thick Skinned", "Weak Speedster"]],
+        ["Le chonk", ["THE EATER", "Thick Skinned"]],
+        ["Slow Speedster", ["Le chonk", "Buff Speedster"]],
+        ["Attacker", ["Glass Canon", "Bulk"]],
+        ["Fragile Warrior", ["Glass Canon", "Glass Canon"]],
+        ["Weak Warrior", ["Fragile Warrior", "Thick Skinned"]],
+        ["Warrior", ["Bulk", "Weak Warrior"]],
+        ["Decomposition", ["Omnivore", "Photosynthesis"]],
+        ["Weird", ["Omnivore", "Dubious"]],
+        ["Degrade", ["Decomposition", "Weird"]],
+        ["Eating+", ["Omnivore", "Weird"]],
+        ["Plastic eating", ["Eating+", "Degrade"]]
+    ],
     "DNAs": [
         "Syringe",
         "Fatness",
@@ -12,7 +36,7 @@
         "Omnivore",
         "Glass Canon",
         "Bulk",
-        "Navigator",
+        "Navigation",
         "Smart",
         "Hollow Bones",
         "Thick Skin",
@@ -33,5 +57,40 @@
         "Degrade",
         "Eating+",
         "Plastic Eating"
+    ],
+    "DNAextractorIDS": {
+        "Blood Samples(Cow)": [{
+            "Failed": 35,
+            "Fatness": 30,
+            "Bulk": 35
+        }, "Beef"],
+        "Beef": [{
+            "Failed": 75,
+            "Fatness": 15,
+            "Bulk": 10
+        }, "Empty"],
+        "Chicken": [{
+            "Failed": 60,
+            "Hollow Bones": 30,
+            "Fatness": 10
+        }, "Empty"],
+        "Pork": [{
+            "Failed": 60,
+            "Hollow Bones": 30,
+            "Fatness": 10
+        }, "Empty"],
+        "Blood Sample(Pig)": [{
+            "Navigation": 40,
+            "Smart": 30,
+            "Failed": 30
+        }, "Pork"],
+        "Fish": [{
+            "Failed": 70,
+            "Hollow Bones": 30,
+            "Gills": 5
+        }, "Empty"]
+    },
+    "Items": [
+        
     ]
 }
