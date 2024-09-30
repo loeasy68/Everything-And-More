@@ -9,5 +9,5 @@ Automate stuff better than ever by creating plastic, and pumping out iron at mac
 ## Storage
 We help to revolutionize storage with compacted chests and sorters, and even a storage controller!
 ## Recycling
-Tired of having piles of unusable plastic and usless scraps of iron? With this addition you can recycle practically <b>everythin</b>
+Tired of having piles of unusable plastic and usless scraps of iron? With this addition you can recycle practically <b>everything</b>
 ## **AND SO MUCH MORE!**
