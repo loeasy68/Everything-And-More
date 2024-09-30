@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+
 # Codes for everything
 #  D - Decomposition - Decomposition(Organics, Plastic) Out(Fertilized Dirt, Oil(Requires plastic))
 ##  pe - Plastic Eating
@@ -12,37 +14,37 @@
 ##  r - refiner
 ##  f - furnace
 # Example code would look like "Dpe"
+@dataclass
 class Decomposition:
-    def __init__(self, age, _type):
-        self.age = age
-        self.type = _type
+    age: int
+    _type: str
     def run(age, _type):
         # This is an If tree based on each type
-        if _type == "Dpe":
+        if self._type == "Dpe":
             pass
-        elif _type == "Db":
+        elif self._type == "Db":
             pass
-        elif _type == "Dcb":
+        elif self._type == "Dcb":
             pass
-        elif _type == "Dw":
+        elif self._type == "Dw":
             pass
+@dataclass
 class SNC:
-    def __init__(self, age, _type):
-        self.age = age
-        self.type = _type
+    age: int
+    _type: str
     def run(age, _type):
-        if _type == "SNCw":
+        if self._type == "SNCw":
             pass
-        elif _type == "SNCc":
+        elif self._type == "SNCc":
             pass
+@dataclass
 class Remelting:
-    def __init__(self, age, _type):
-        self.age = age
-        self.type = _type
+    age: int
+    _type: str
     def run(age, _type):
-        if _type == "Rm":
+        if self._type == "Rm":
             pass
-        elif _type == "Rr":
+        elif self._type == "Rr":
             pass
-        elif _type == "Rf":
+        elif self._type == "Rf":
             pass
