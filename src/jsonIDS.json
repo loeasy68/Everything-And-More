@@ -131,7 +131,10 @@
             "Dubious Gene": 10
         }, "Empty"]
     },
+    "GeneSynthesizerIDs": {
+        "Dubious": [0,0,128,0,0,256]
+    },
     "Items": [
-        
+        "placeholder"
     ]
 }
