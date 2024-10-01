@@ -19,4 +19,4 @@ ItemsID = [
     "Thick Skin",
     "Weak Speedster",
     "Buff Speedster"
-]
+] 

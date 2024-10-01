@@ -88,6 +88,47 @@
             "Failed": 70,
             "Hollow Bones": 30,
             "Gills": 5
+        }, "Empty"],
+        "Blood Samples(Worm)": [{
+            "Failed": 20,
+            "Dubious Gene": 40,
+            "Decomposition": 40
+        }, "Worm"],
+        "Blood Samples(Bacteria)": [{
+            "Glass Canon": 20,
+            "Dubious Gene": 50,
+            "Decomposition": 10
+        }, "Worms"],
+        "Worms": [{
+            "Failed": 70,
+            "Dubious Gene":20,
+            "Decomposition": 10
+        }, "Empty"],
+        "Blood Sample(Bacteria)": [{
+            "Failed": 70,
+            "Dubious Gene": 20,
+            "Omnivore": 20
+        }, "Fish"],
+        "Wood": [{
+            "Failed": 40,
+            "Hardness": 20,
+            "Photosynthesis": 40
+        }, "Empty"],
+        "Vegetables/Fruit": [{
+            "Failed": 60,
+            "Photosynthesis": 30,
+            "Plant Clone": 10
+        }, "Empty"],
+        "Mushroom": [{
+            "Failed": 50,
+            "Dubious Gene": 20,
+            "Plant Clone": 10,
+            "Decomposition": 20
+        }, "Empty"],
+        "Other Organics": [{
+            "Failed": 40,
+            "Photosynthesis": 50,
+            "Dubious Gene": 10
         }, "Empty"]
     },
     "Items": [
