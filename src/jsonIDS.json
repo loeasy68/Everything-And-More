@@ -132,9 +132,142 @@
         }, "Empty"]
     },
     "GeneSynthesizerIDs": {
-        "Dubious": [0,0,128,0,0,256]
+        "Dubious": [0,0,128,0,0,256],
+        "Weird" : [0,64, 128, 0, 128, 256],
+        "Thick Skinned": [10, 64, 30, 128, 64, 30],
+        "Hardness": [0, 128, 0, 0, 256, 0],
+        "Photosynthesis": [0, 100, 100, 0, 120, 120],
+        "Glass Canon": [256, 0, 0, 256, 0, 0],
+        "Smart": [0, 10, 130, 0, 20, 150],
+        "Gills": [0, 30, 60, 0, 40, 90],
+        "Bulk": [0, 120, 20, 0, 140, 25],
+        "THE EATER": []
     },
-    "Items": [
-        "placeholder"
-    ]
+    "SideEffects": { 
+        "Fatness": {
+            "Ability": "Empty",
+            "Boosts": {
+                "S": -2, 
+                "U": 2
+            }
+        },
+        "Dubious": {
+            "Ability": "Empty",
+            "Boosts": {
+                "2R": 1, 
+                "V": 1, 
+                "N": 1
+            }
+        },
+        "Thick Skinned": {
+            "Boosts": {
+                "H": 3,
+                "U": 1,
+                "D": 1
+            },
+            "Ability": "Empty"
+        },
+        "Gills": {
+            "Ability": "Empty",
+            "Boosts": {
+                "PWB": 1,
+                "2R": 1
+            }
+        },
+        "Decomposition": {
+            "Ability": "Empty",
+            "Boosts": {
+                "EAO": 1
+            }
+        },
+        "Hardness": {
+            "Boosts": {
+                "D": 3
+            },
+            "Ability": "Empty"
+        },
+        "Omnivore": {
+            "Ability": "Empty",
+            "Boosts": {
+                "EA": 1
+            }
+        },
+        "Glass Canon": {
+            "Boosts": {
+                "H": -2,
+                "A": 2
+            },
+            "Ability": "Empty"
+        },
+        "Bulk": {
+            "Boosts": {
+                "H": 2,
+                "U": -2,
+                "S": -1
+            },
+            "Ability": "Empty"
+        },
+        "Navigatior": {
+            "Ability": "AbilityHandler.py - Save a location permanently",
+            "Boosts": {}
+        },
+        "Smart": {
+            "Boosts": {
+                "RS": 10
+            },
+            "Ability": "Empty"
+        },
+        "Hollow Bones": {
+            "Boosts": {
+                "S": 2,
+                "J": 2,
+                "H": -2,
+                "A": -2
+            },
+            "Ability": "Empty"
+        },
+        "Weak Speedster": {
+            "Boosts": {
+                "H": -5,
+                "S": 3,
+                "J": 3,
+                "A": 1
+            },
+            "Ability": "Empty"
+        },
+        "Buff Speedster": {
+            "Boosts": {
+                "H": 1,
+                "S": 2,
+                "J": 3,
+                "A": 2
+            }
+        },
+        "THE EATER": {
+            "Boosts": {
+                "U": 5,
+                "S": -3
+            }
+        }
+    },
+    "Attacker": {
+        "Boosts": {
+            "A": 2
+        },
+        "Ability": "Empty"
+    },
+    "Warrior": {
+        "Boosts": {
+            "A": 4,
+            "H": 3
+        },
+        "Ability": "Empty"
+    },
+    "Weak Warrior" :{
+        "Boosts": {
+            "A": 5,
+            "H": -2
+        },
+        "Ability": "Empty"
+    }
 }

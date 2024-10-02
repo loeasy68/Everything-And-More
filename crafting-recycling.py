@@ -18,7 +18,7 @@ from dataclasses import dataclass
 class Decomposition:
     age: int
     _type: str
-    def run(age, _type):
+    def run(self):
         # This is an If tree based on each type
         if self._type == "Dpe":
             pass
@@ -32,7 +32,7 @@ class Decomposition:
 class SNC:
     age: int
     _type: str
-    def run(age, _type):
+    def run(self,):
         if self._type == "SNCw":
             pass
         elif self._type == "SNCc":
@@ -41,7 +41,7 @@ class SNC:
 class Remelting:
     age: int
     _type: str
-    def run(age, _type):
+    def run(self):
         if self._type == "Rm":
             pass
         elif self._type == "Rr":

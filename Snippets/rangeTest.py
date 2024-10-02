@@ -1,7 +1,7 @@
 # This is a range test for the JSON
 #Ranges = [0,64,128,0,128,256] # Weird
 #[min0, min1, min2, Max0, Max1, Max2]
-Ranges = [10, 64, 10, 64, 128, 30]
+Ranges = [0, 128, 0, 0, 256, 0]
 test = 160
 if (test >= Ranges[2]) and (test <= Ranges[5]):
     print("Gaming")
