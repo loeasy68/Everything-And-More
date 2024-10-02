@@ -1,0 +1,1 @@
+[https://www.baeldung.com/java-string-compile-execute-code]- Run code from a string in java, slimmar to exec() in python

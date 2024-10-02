@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "everything-and-more",
+	"version": "${version}",
+	"name": "Everything-And-More",
+	"description": "A mod with basically everything",
+	"authors": [
+		"Bob",
+		"LoEasy"
+	],
+	"contact": {
+		"Email": "eamcontactteam@gmail.com",
+		"sources": "https://github.com/loeasy68/Everything-And-More/"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/everything-and-more/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bob.everythingandmore.EverythingAndMore"
+		],
+		"fabric-datagen": [
+			"bob.everythingandmore.EverythingAndMoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"everything-and-more.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "1.21",
+		"java": "21",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
