@@ -1,0 +1,325 @@
+{
+    "key": "value",
+    "new": "thing",
+    "IDtable": [
+        ["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], 
+        ["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], 
+        ["Conveyor", "Cobblestone Generator", "Mixer", "Solar panels", "Electric furnace", "Research station"], 
+        ["Dna extractor", "Gene Combiner", "Gene Synthesizer"], 
+        ["Molten Iron", "Molten Gold", "Molten Stone", "Molten Mix", "Molten Glass"]
+    ],
+    "GeneCombinerIDs": [
+        ["THE EATER", ["Omnivore", "Fatness/Bulk"]],
+        ["Thick Skinned", ["Bulk", "Fatness"]],
+        ["Weak Speedster", ["Glass Canon", "Hollow Bones"]],
+        ["Buff Speedster", ["Thick Skinned", "Weak Speedster"]],
+        ["Le chonk", ["THE EATER", "Thick Skinned"]],
+        ["Slow Speedster", ["Le chonk", "Buff Speedster"]],
+        ["Attacker", ["Glass Canon", "Bulk"]],
+        ["Fragile Warrior", ["Glass Canon", "Glass Canon"]],
+        ["Weak Warrior", ["Fragile Warrior", "Thick Skinned"]],
+        ["Warrior", ["Bulk", "Weak Warrior"]],
+        ["Decomposition", ["Omnivore", "Photosynthesis"]],
+        ["Weird", ["Omnivore", "Dubious"]],
+        ["Degrade", ["Decomposition", "Weird"]],
+        ["Eating+", ["Omnivore", "Weird"]],
+        ["Plastic eating", ["Eating+", "Degrade"]]
+    ],
+    "DNAs": [
+        "Syringe",
+        "Fatness",
+        "Dubious",
+        "Bulk",
+        "Weird",
+        "Gills",
+        "Decomposition",
+        "Omnivore",
+        "Glass Canon",
+        "Bulk",
+        "Navigation",
+        "Smart",
+        "Hollow Bones",
+        "Thick Skin",
+        "Weak Speedster",
+        "Buff Speedster",
+        "THE EATER",
+        "Le chonk",
+        "Slow Speedster",
+        "Warrior",
+        "Quick Warrior",
+        "Fragile Warrior",
+        "Weak Warrior",
+        "Quick Warrior",
+        "Attacker",
+        "Hardness",
+        "Photosynthesis",
+        "Plant Clone",
+        "Degrade",
+        "Eating+",
+        "Plastic Eating"
+    ],
+    "DNAextractorIDS": {
+        "Blood Samples(Cow)": [{
+            "Failed": 35,
+            "Fatness": 30,
+            "Bulk": 35
+        }, "Beef"],
+        "Beef": [{
+            "Failed": 75,
+            "Fatness": 15,
+            "Bulk": 10
+        }, "Empty"],
+        "Chicken": [{
+            "Failed": 60,
+            "Hollow Bones": 30,
+            "Fatness": 10
+        }, "Empty"],
+        "Pork": [{
+            "Failed": 60,
+            "Hollow Bones": 30,
+            "Fatness": 10
+        }, "Empty"],
+        "Blood Sample(Pig)": [{
+            "Navigation": 40,
+            "Smart": 30,
+            "Failed": 30
+        }, "Pork"],
+        "Fish": [{
+            "Failed": 70,
+            "Hollow Bones": 30,
+            "Gills": 5
+        }, "Empty"],
+        "Blood Samples(Worm)": [{
+            "Failed": 20,
+            "Dubious Gene": 40,
+            "Decomposition": 40
+        }, "Worm"],
+        "Blood Samples(Bacteria)": [{
+            "Glass Canon": 20,
+            "Dubious Gene": 50,
+            "Decomposition": 10
+        }, "Worms"],
+        "Worms": [{
+            "Failed": 70,
+            "Dubious Gene":20,
+            "Decomposition": 10
+        }, "Empty"],
+        "Blood Sample(Bacteria)": [{
+            "Failed": 70,
+            "Dubious Gene": 20,
+            "Omnivore": 20
+        }, "Fish"],
+        "Wood": [{
+            "Failed": 40,
+            "Hardness": 20,
+            "Photosynthesis": 40
+        }, "Empty"],
+        "Vegetables/Fruit": [{
+            "Failed": 60,
+            "Photosynthesis": 30,
+            "Plant Clone": 10
+        }, "Empty"],
+        "Mushroom": [{
+            "Failed": 50,
+            "Dubious Gene": 20,
+            "Plant Clone": 10,
+            "Decomposition": 20
+        }, "Empty"],
+        "Other Organics": [{
+            "Failed": 40,
+            "Photosynthesis": 50,
+            "Dubious Gene": 10
+        }, "Empty"]
+    },
+    "GeneSynthesizerIDs": {
+        "Dubious": [0,0,128,0,0,256],
+        "Weird" : [0,64, 128, 0, 128, 256],
+        "Thick Skinned": [10, 64, 30, 128, 64, 30],
+        "Hardness": [0, 128, 0, 0, 256, 0],
+        "Photosynthesis": [0, 100, 100, 0, 120, 120],
+        "Glass Canon": [256, 0, 0, 256, 0, 0],
+        "Smart": [0, 10, 130, 0, 20, 150],
+        "Gills": [0, 30, 60, 0, 40, 90],
+        "Bulk": [0, 120, 20, 0, 140, 25],
+        "THE EATER": []
+    },
+    "SideEffects": { 
+        "Fatness": {
+            "Ability": "Empty",
+            "Boosts": {
+                "S": -2, 
+                "U": 2
+            }
+        },
+        "Dubious": {
+            "Ability": "Empty",
+            "Boosts": {
+                "2R": 1, 
+                "V": 1, 
+                "N": 1
+            }
+        },
+        "Thick Skinned": {
+            "Boosts": {
+                "H": 3,
+                "U": 1,
+                "D": 1
+            },
+            "Ability": "Empty"
+        },
+        "Gills": {
+            "Ability": "Empty",
+            "Boosts": {
+                "PWB": 1,
+                "2R": 1
+            }
+        },
+        "Decomposition": {
+            "Ability": "Empty",
+            "Boosts": {
+                "EAO": 1
+            }
+        },
+        "Hardness": {
+            "Boosts": {
+                "D": 3
+            },
+            "Ability": "Empty"
+        },
+        "Omnivore": {
+            "Ability": "Empty",
+            "Boosts": {
+                "EA": 1
+            }
+        },
+        "Glass Canon": {
+            "Boosts": {
+                "H": -2,
+                "A": 2
+            },
+            "Ability": "Empty"
+        },
+        "Bulk": {
+            "Boosts": {
+                "H": 2,
+                "U": -2,
+                "S": -1
+            },
+            "Ability": "Empty"
+        },
+        "Navigatior": {
+            "Ability": "AbilityHandler.py - Save a location permanently",
+            "Boosts": {}
+        },
+        "Smart": {
+            "Boosts": {
+                "RS": 10
+            },
+            "Ability": "Empty"
+        },
+        "Hollow Bones": {
+            "Boosts": {
+                "S": 2,
+                "J": 2,
+                "H": -2,
+                "A": -2
+            },
+            "Ability": "Empty"
+        },
+        "Weak Speedster": {
+            "Boosts": {
+                "H": -5,
+                "S": 3,
+                "J": 3,
+                "A": 1
+            },
+            "Ability": "Empty"
+        },
+        "Buff Speedster": {
+            "Boosts": {
+                "H": 1,
+                "S": 2,
+                "J": 3,
+                "A": 2
+            }
+        },
+        "THE EATER": {
+            "Boosts": {
+                "U": 5,
+                "S": -3
+            },
+            "Ability": "Empty"
+        },
+        "Le chonk": {
+            "Boosts": {
+                "U": 6,
+                "H": 2,
+                "S": -5 
+            },
+            "Ability": "Empty"
+        },
+        "Slow Speedster": {
+            "Boosts": {
+                "U": 3,
+                "S": 1,
+                "H": 2
+            },
+            "Ability": "Empty"
+        },
+        "Attacker": {
+            "Boosts": {
+                "A": 2
+            },
+            "Ability": "Empty"
+        },
+        "Warrior": {
+            "Boosts": {
+                "A": 4,
+                "H": 3
+            },
+            "Ability": "Empty"
+        },
+        "Weak Warrior" :{
+            "Boosts": {
+                "A": 5,
+                "H": -2
+            },
+            "Ability": "Empty"
+        },
+        "Quick Warrior": {
+            "Boosts": {
+                "A": 3,
+                "H": -2,
+                "S": 3
+            },
+            "Ability": "Empty"
+        },
+        "Fragile Warrior": {
+            "Boosts": {
+                "A": 5,
+                "H": -5
+            },
+            "Ability": "Empty"
+        },
+        "Photosynthesis": {
+            "Boosts": {},
+            "Ability":"AbilityHandler.py - Slowly regain hunger in the light"
+        },
+        "Plant Clone": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Create a clone node"
+        },
+        "Degrade": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Eat tools"
+        },
+        "Eating+": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Get more from eating"
+        },
+        "Plastic Eating": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Eat plastic"
+        }
+    }
+}
