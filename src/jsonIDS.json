@@ -247,27 +247,79 @@
             "Boosts": {
                 "U": 5,
                 "S": -3
-            }
+            },
+            "Ability": "Empty"
+        },
+        "Le chonk": {
+            "Boosts": {
+                "U": 6,
+                "H": 2,
+                "S": -5 
+            },
+            "Ability": "Empty"
+        },
+        "Slow Speedster": {
+            "Boosts": {
+                "U": 3,
+                "S": 1,
+                "H": 2
+            },
+            "Ability": "Empty"
+        },
+        "Attacker": {
+            "Boosts": {
+                "A": 2
+            },
+            "Ability": "Empty"
+        },
+        "Warrior": {
+            "Boosts": {
+                "A": 4,
+                "H": 3
+            },
+            "Ability": "Empty"
+        },
+        "Weak Warrior" :{
+            "Boosts": {
+                "A": 5,
+                "H": -2
+            },
+            "Ability": "Empty"
+        },
+        "Quick Warrior": {
+            "Boosts": {
+                "A": 3,
+                "H": -2,
+                "S": 3
+            },
+            "Ability": "Empty"
+        },
+        "Fragile Warrior": {
+            "Boosts": {
+                "A": 5,
+                "H": -5
+            },
+            "Ability": "Empty"
+        },
+        "Photosynthesis": {
+            "Boosts": {},
+            "Ability":"AbilityHandler.py - Slowly regain hunger in the light"
+        },
+        "Plant Clone": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Create a clone node"
+        },
+        "Degrade": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Eat tools"
+        },
+        "Eating+": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Get more from eating"
+        },
+        "Plastic Eating": {
+            "Boosts": {},
+            "Ability": "AbilityHandler.py - Eat plastic"
         }
-    },
-    "Attacker": {
-        "Boosts": {
-            "A": 2
-        },
-        "Ability": "Empty"
-    },
-    "Warrior": {
-        "Boosts": {
-            "A": 4,
-            "H": 3
-        },
-        "Ability": "Empty"
-    },
-    "Weak Warrior" :{
-        "Boosts": {
-            "A": 5,
-            "H": -2
-        },
-        "Ability": "Empty"
     }
 }
