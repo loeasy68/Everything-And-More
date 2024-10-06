@@ -1,6 +1,4 @@
 {
-    "key": "value",
-    "new": "thing",
     "IDtable": [
         ["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], 
         ["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], 
@@ -35,7 +33,6 @@
         "Decomposition",
         "Omnivore",
         "Glass Canon",
-        "Bulk",
         "Navigation",
         "Smart",
         "Hollow Bones",
@@ -321,5 +318,99 @@
             "Boosts": {},
             "Ability": "AbilityHandler.py - Eat plastic"
         }
-    }
+    },
+    "IDs":  {
+        "everything-and-more:empty-syringe": {
+            "stacking": 64
+        },
+        "everything-and-more:full-syringe": {
+            "stacking": 1, 
+            "dna": "%s"
+        },
+        "everything-and-more:DNA-fatness": {
+            "stacking": 1,
+            "dna": "Fatness"
+        },
+        "everything-and-more:DNA-Dubious": {
+
+        },
+        "everything-and-more:DNA-Bulk": {
+
+        },
+        "everything-and-more:DNA-Weird": {
+
+        },
+        "everything-and-more:DNA-Gills": {
+            
+        },
+        "everything-and-more:DNA-Decomposition": {
+
+        },
+        "everything-and-more:DNA-Omnivore": {
+            
+        },
+        "everything-and-more:DNA-Glass Canon": {
+            
+        },
+        "everything-and-more:DNA-Navigation": {
+
+        },
+        "everything-and-more:DNA-Smart": {
+
+        },
+        "everything-and-more:DNA-Hollow Bones": {
+
+        },
+        "everything-and-more:DNA-Thick Skin": {
+
+        },
+        "everything-and-more:DNA-Weak Speedster": {
+
+        },
+        "everything-and-more:DNA-Buff Speedster": {
+
+        },
+        "everything-and-more:DNA-THE EATER": {
+
+        },
+        "everything-and-more:DNA-Le chonk": {
+
+        },
+        "everything-and-more:DNA-Slow Speedster": {
+
+        },
+        "everything-and-more:DNA-Warrior": {
+
+        },
+        "everything-and-more:DNA-Fragile Warrior": {
+
+        },
+        "everything-and-more:DNA-Weak Warrior": {
+
+        },
+        "everything-and-more:DNA-Quick Warrior": {
+
+        },
+        "everything-and-more:DNA-Attacker": {
+
+        },
+        "everything-and-more:DNA-Hardness": {
+
+        },
+        "everything-and-more:DNA-Photosynthesis": {
+
+        },
+        "everything-and-more:DNA-Plant Clone": {
+            
+        },
+        "everything-and-more:DNA-Degrade": {
+
+        },
+        "everything-and-more:DNA-Eating+": {
+            
+        },
+        "everything-and-more:DNA-Plastic Eating": {
+
+        }
+    } 
 }

@@ -1,45 +1,17 @@
 """
     This is the storage handler for compact chests, sorters, and storage controllers
 """
-table1 = [
-    [["minecraft:iron", 64], [], []],
-    [[], [], []],
-    [[], [], []],
-    [[], [], []]
-    
-]
-
+chestSize = 5
 table2 = []
-for i in range(60):
-    if len(table2) > 12:
+i = -1
+# Working test for table, Other method is in Snippets/tableTest.py
+while True:
+    i += 1
+    if len(table2) > chestSize - 1:
         print("CHEST FILLED")
+        break
     else:
         table2.append(["minecraft:iron_ingots", i])
-print(table2)
-
-#18
-try:
-    table1[0][0].append("a")
-    table1[0][1].append("a")
-    table1[0][2].append("a")
-    table1[1][0].append("a")
-    table1[1][1].append("a")
-    table1[1][2].append("a")
-    table1[2][0].append("a")
-    table1[2][1].append("a")
-    table1[2][2].append("a")
-    table1[3][0].append("a")
-    table1[3][1].append("a")
-    table1[3][2].append("a")
-    table1[4][0].append("a")
-    table1[4][1].append("a")
-    table1[4][2].append("a")
-    table1[5][0].append("a")
-    table1[5][1].append("a")
-    table1[5][2].append("a")
-except IndexError:
-    print("CHEST FILLED")
-
 print(table2)
 
 def compactChests():
