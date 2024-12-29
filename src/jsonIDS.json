@@ -1,6 +1,4 @@
 {
-    "key": "value",
-    "new": "thing",
     "IDtable": [
         ["plastic eating bacteria", "worms", "Remolder", "Soaker", "Refiner", "Smelter"], 
         ["Compacted chest", "Automatic Sorter", "Giga Chest", "Chest networker"], 
@@ -35,7 +33,6 @@
         "Decomposition",
         "Omnivore",
         "Glass Canon",
-        "Bulk",
         "Navigation",
         "Smart",
         "Hollow Bones",
@@ -321,5 +318,126 @@
             "Boosts": {},
             "Ability": "AbilityHandler.py - Eat plastic"
         }
-    }
+    },
+    "IDs":  {
+        "everything-and-more:empty-syringe": {
+            "stacking": 64
+        },
+        "everything-and-more:full-syringe": {
+            "stacking": 1, 
+            "dna": "%s"
+        },
+        "everything-and-more:DNA-fatness": {
+            "stacking": 64,
+            "dna": "Fatness"
+        },
+        "everything-and-more:DNA-Dubious": {
+            "stacking": 64,
+            "dna": "Dubious"
+        },
+        "everything-and-more:DNA-Bulk": {
+            "stacking": 64,
+            "dna": "Dubious"
+        },
+        "everything-and-more:DNA-Weird": {
+            "stacking": 64,
+            "dna": "Weird"
+        },
+        "everything-and-more:DNA-Gills": {
+            "stacking": 64,
+            "dna": "Gills"
+        },
+        "everything-and-more:DNA-Decomposition": {
+            "stacking": 64,
+            "dna": "Decomposition"
+        },
+        "everything-and-more:DNA-Omnivore": {
+            "stacking": 64,
+            "dna": "Omnivore"
+        },
+        "everything-and-more:DNA-Glass-Canon": {
+            "stacking": 64,
+            "dna": "Glass-Canon"
+        },
+        "everything-and-more:DNA-Navigation": {
+            "stacking": 64,
+            "dna": "Navigation"
+        },
+        "everything-and-more:DNA-Smart": {
+            "stacking": 64,
+            "dna": "Smart"
+        },
+        "everything-and-more:DNA-Hollow-Bones": {
+            "stacking": 64,
+            "dna": "Hollow-Bone"
+        },
+        "everything-and-more:DNA-Thick-Skin": {
+            "stacking": 64,
+            "dna": "Thick-Skin"
+        },
+        "everything-and-more:DNA-Weak-Speedster": {
+            "stacking": 64,
+            "dna": "Weak-Speedster"
+        },
+        "everything-and-more:DNA-Buff-Speedster": {
+            "stacking": 64,
+            "dna": "Buff-Speedster"
+        },
+        "everything-and-more:DNA-THE-EATER": {
+            "stacking": 64,
+            "dna": "THE-EATER"
+        },
+        "everything-and-more:DNA-Le-chonk": {
+            "stacking": 64,
+            "dna": "Le-chonk"
+        },
+        "everything-and-more:DNA-Slow-Speedster": {
+            "stacking": 64,
+            "dna": "Slow-Speedster"
+        },
+        "everything-and-more:DNA-Warrior": {
+            "stacking": 64,
+            "dna": "Warrior"
+        },
+        "everything-and-more:DNA-Fragile-Warrior": {
+            "stacking": 64,
+            "dna": "Fragile-Warrior"
+        },
+        "everything-and-more:DNA-Weak-Warrior": {
+            "stacking": 64,
+            "dna": "Weak-Warrior"
+        },
+        "everything-and-more:DNA-Quick-Warrior": {
+            "stacking": 64,
+            "dna": "Quick-Warrior"
+        },
+        "everything-and-more:DNA-Attacker": {
+            "stacking": 64,
+            "dna": "Attacker"
+        },
+        "everything-and-more:DNA-Hardness": {
+            "stacking": 64,
+            "dna": "Hardness"
+        },
+        "everything-and-more:DNA-Photosynthesis": {
+            "stacking": 64,
+            "dna": "Photosynthesis"
+        },
+        "everything-and-more:DNA-Plant-Clone": {
+            "stacking": 64,
+            "dna": "Plant-Clone"   
+        },
+        "everything-and-more:DNA-Degrade": {
+            "stacking": 64,
+            "dna": "Degrade"
+        },
+        "everything-and-more:DNA-Eating+": {
+            "stacking": 64,
+            "dna": "Eating+"
+        },
+        "everything-and-more:DNA-Plastic-Eating": {
+            "stacking": 64,
+            "dna": "Plastic-Eating"
+        }
+    } 
 }
